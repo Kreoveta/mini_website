@@ -21,7 +21,7 @@ const btn = document.getElementById("btn");
 
   btn.addEventListener("click", async () => {
     try {
-      await navigator.share({ title: "JCreation", url: "https://jcreation.kodocan.com/" });
+      await navigator.share({ title: "JCreation", url: "https://jcreation.vercel.app/" });
       console.log("Data was shared successfully");
     } catch (err) {
       console.error("Share failed:", err.message);
