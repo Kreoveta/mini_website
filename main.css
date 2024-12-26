@@ -1,0 +1,339 @@
+.main-container {
+    background-color: #00615f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.sub-container {
+    background-color: #ecfffc;
+    display: flex;
+    border-radius: 40px;
+    align-items: center;
+    flex-direction: column;
+    border: solid;
+    width: 80vw;
+    margin-top: 4vw;
+}
+
+.sub-container2 {
+    justify-content: center;
+    display: flex;
+    background-color: #ecfffc;
+    border-radius: 50px;
+    width: 80vw;
+    margin-top: 4vw;
+    height:75vh;
+}
+
+.logo-container {
+    justify-content: center;
+    display: flex;
+    background-color: #ecfffc;
+    border-radius: 30px;
+    border:solid; 
+    width: 73.5vw;
+}
+
+.logo-container2{
+    justify-content: center;
+    display: flex;
+    background-color: #ecfffc;
+    border-radius: 40px;
+    width: 80vw;
+    height: 16vh;
+    margin-top: 5vw;
+}
+
+.img-container {
+    border-radius: 30px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.about-heading{
+ font-size: 6vw;
+}
+
+.about-para{
+font-size: 4.5vw;
+}
+
+.icon-container{
+    display: flex;
+    background-color: #011a1d;
+    border-radius: 8px;
+    width: 3.5vh;
+    height: 3.5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.jadui-container{
+    display:flex;
+    position:absolute;
+    margin-top: 41.3vh;
+    flex-direction: column;
+
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.button {
+    display: inline-flex;
+    border-radius: 10px;
+    background-color: #c12c65;
+    width: 58vw;
+    height: 4vh;
+    color: white;
+    font-size: 5vw;
+    margin-top: 1.5vh;
+    background-color: rgba(255,255,255,0);
+    color: rgba(255,255,255,0);
+}
+
+.button2{
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #252e30;
+    width: 4vh;
+    height: 4vh;
+    color: white;
+}
+
+
+/*kreovita*/
+
+.image-controller{
+   width: 93vw;
+   height: 98vh;   
+}
+
+.apna-container{
+    margin-top: 11vh;
+    font-size: 2vh;
+    background-color: rgba(255,255,255,0);
+    color: rgba(255,255,255,0);
+}
+
+.button-container2{
+    margin-left: 31vw;
+    margin-top: 14.5vh;
+}
+
+
+@media screen and (min-device-width: 390px) and (max-device-width: 450px) { 
+    .image-controller{
+        width: 85vw;
+        height: 98vh;
+    }
+
+    .button-container2{
+        margin-left: 31vw;
+        margin-top: 15.5vh;
+        }
+        
+        .button {
+            display: inline-flex;
+            border-radius: 10px;
+            background-color: #c12c65;
+            width: 58vw;
+            height: 4vh;
+            color: white;
+            font-size: 4vw;
+            flex-basis: auto;
+        }
+    
+}
+
+@media screen and (min-device-width: 460px){
+
+    .image-controller{
+        width: 80vw;
+        height: 100vh;   
+     }
+
+     .button-container {
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+        margin-top: 1vh;
+    }
+
+    .button {
+        display: inline-flex;
+        border-radius: 10px;
+        background-color: #c12c65;
+        width: 45vw;
+        height: 4vh;
+        color: white;
+        font-size: 4vw;
+    }
+    
+    .button-container2{
+        margin-left: 28vw;
+        margin-top: 14.5vh;
+        }
+}
+
+
+
+@media screen and (min-device-width: 600px) and (orientation:portrait){
+
+    .image-controller{
+        width: 50vw;
+        height: 98vh;   
+     }
+
+     .button-container {
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-top: 2vh;
+    }
+
+    .button {
+        display: inline-flex;
+        border-radius: 10px;
+        background-color: #c12c65;
+        width: 33vw;
+        height: 4vh;
+        color: white;
+        font-size: 2vw;
+    }
+    
+    .button-container2{
+        margin-left: 17vw;
+        margin-top: 13.5vh;
+        }
+}
+
+
+@media screen and (min-device-width: 600px) and (min-device-height:1100px){
+
+    .image-controller{
+        width: 60vw;
+        height: 98vh;   
+     }
+
+     .button-container {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .button {
+        display: inline-flex;
+        border-radius: 10px;
+        background-color: #c12c65;
+        width: 39vw;
+        height: 4vh;
+        color: white;
+        font-size: 2.4vw;
+        margin-top: 1.1vh;
+    }
+    
+    .button-container2{
+        margin-left: 21vw;
+        margin-top: 15vh;
+        }
+}
+
+
+@media screen and (min-device-width: 800px){
+
+    .image-controller{
+        width: 60vw;
+        height: 95vh;   
+     }
+
+     .button-container {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .button {
+        display: inline-flex;
+        border-radius: 10px;
+        background-color: #c12c65;
+        width: 40vw;
+        height: 4vh;
+        color: white;
+        font-size: 3vw;
+    }
+    
+    .button-container2{
+        margin-left: 22vw;
+        margin-top: 14.5vh;
+        }
+}
+
+
+@media screen and (min-device-width: 1024px) and (orientation:landscape){
+
+    .image-controller{
+        width: 40vw;
+        height: 100vh;   
+     }
+
+     .button-container {
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+        margin-top: 2.7vh;
+    }
+
+    .button {
+        display: inline-flex;
+        border-radius: 10px;
+        background-color: #c12c65;
+        width: 26vw;
+        height: 4vh;
+        color: white;
+        font-size: 1.8vw;
+        margin-top: 1.78vh;
+    }
+    
+    .button-container2{
+        margin-left: 13.9vw;
+        margin-top: 14.5vh;
+        }
+}
+
+
+@media screen and (min-device-width: 1025px){
+
+    .image-controller{
+        width: 20vw;
+        height: 100vh;   
+     }
+
+     .button-container {
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-top: 3vh;
+    }
+
+    .button {
+        display: inline-flex;
+        border-radius: 10px;
+        background-color: #c12c65;
+        width: 14vw;
+        height: 4vh;
+        color: white;
+        font-size: 1vw;
+        margin-top: 1.6vh;
+    }
+    
+    .button-container2{
+        margin-left: 6.9vw;
+        margin-top: 14.5vh;
+        }
+}
