@@ -112,35 +112,6 @@ font-size: 4.5vw;
     color: white;
 }
 
-/*lightbox*/
-/* Ensure the navigation arrows are always visible */
-.lb-arrow {
-    opacity: 1 !important;  /* Make the arrows always visible */
-    visibility: visible !important;  /* Ensure they are visible */
-    transition: none !important;  /* Remove any fade-in effect */
-}
-
-.lb-arrow-left, .lb-arrow-right {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 9999;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.5); /* Add background color to arrows */
-    padding: 10px;
-    font-size: 30px;
-    color: white;
-}
-
-.lb-arrow-left {
-    left: 10px;
-}
-
-.lb-arrow-right {
-    right: 10px;
-}
-
-
 
 /*kreovita*/
 
